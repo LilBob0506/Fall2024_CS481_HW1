@@ -1,0 +1,52 @@
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The memory limit is: 1gb
+  The job will start running after: 202409241410.37
+  Job Name: myscriptshSCRIPT
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N myscriptshSCRIPT -a 202409241410.37 -r n -M sssahib@crimson.ua.edu -l walltime=12:00:00 -l select=ncpus=1:mem=1000mb 
+
+108576.asax-pbs1
+ualclsd0193@asaxlogin2:~> qstat -x
+108576.asax-pbs1  myscriptshSCRIP* ualclsd0193       00:07:43 F class  
+
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The memory limit is: 1gb
+  The job will start running after: 202409241422.13
+  Job Name: myscriptshSCRIPT
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N myscriptshSCRIPT -a 202409241422.13 -r n -M sssahib@crimson.ua.edu -l walltime=12:00:00 -l select=ncpus=1:mem=1000mb 
+
+108620.asax-pbs1
+ualclsd0193@asaxlogin2:~> qstat -x
+108620.asax-pbs1  myscriptshSCRIP* ualclsd0193       00:07:43 F class      
+
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The memory limit is: 1gb
+  The job will start running after: 202409241433.37
+  Job Name: myscriptshSCRIPT
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N myscriptshSCRIPT -a 202409241433.37 -r n -M sssahib@crimson.ua.edu -l walltime=12:00:00 -l select=ncpus=1:mem=1000mb 
+
+108676.asax-pbs1
+ualclsd0193@asaxlogin2:~> qstat -x
+108676.asax-pbs1  myscriptshSCRIP* ualclsd0193       00:07:43 F class  
